@@ -1,0 +1,17 @@
+Isaac Asimov: Én, a robot
+
+0	Bevezetés	
+1	Robbie
+2	Körbe-körbe
+3	Logika
+4	Fogd meg a nyulat
+5	Te hazug!
+6	Az eltûnt robot
+7	A csillagokba!
+8	Bizonyíték
+9	Az elkerülhetõ konfliktus
+
+********************************
+* forras:  http://f451.host.sk *
+********************************
+

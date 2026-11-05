@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://w3.org" xmlns:opds="http://opds-spec.org">
+  <id>urn:uuid:sajat-opds-katalogus</id>
+  <title>Dzsedzs Könyvtár</title>
+  <updated>2026-11-05T00:00:00Z</updated>
+  <author>
+    <name>Dzsedzs</name>
+  </author>
+  <link rel="self" href="" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="start" href="" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+
+  <entry>
+    <title>Isaac Asimov - 1 - Urvadasz</title>
+    <id>urn:file:asimov01</id>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <content type="text">Formátum: TXT</content>
+    <link rel="http://opds-spec.org" href="https://githubusercontent.com" type="text/plain"/>
+  </entry>
+</feed>
