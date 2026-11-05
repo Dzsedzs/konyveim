@@ -7,8 +7,8 @@
     <name>Dzsedzs</name>
   </author>
   
-  <link rel="self" href="https://githubusercontent.com" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
-  <link rel="start" href="https://githubusercontent.com" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="self" href="https://raw.githubusercontent.com/Dzsedzs/konyveim/refs/heads/main/katalogus.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
+  <link rel="start" href="https://raw.githubusercontent.com/Dzsedzs/konyveim/refs/heads/main/katalogus.xml" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
 
   <!-- 1. KÖNYV: Űrvadász -->
   <entry>
@@ -16,7 +16,6 @@
     <id>urn:file:asimov_urvadasz_1</id>
     <updated>2026-11-05T10:00:00Z</updated>
     <content type="text">Formátum: TXT</content>
-    <!-- FONTOS: Itt a pontos raw link kell a txt fájlhoz, szóközök helyett %20-szal kódolva -->
     <link rel="http://opds-spec.org" href="https://githubusercontent.com" type="text/plain"/>
   </entry>
 
