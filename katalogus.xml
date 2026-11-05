@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://w3.org" xmlns:opds="http://opds-spec.org">
   <id>urn:uuid:sajat-opds-katalogus</id>
-  <title>Dzsedzs Konyvtar</title>
-  <updated>2026-11-05T00:00:00Z</updated>
-  <author><name>Dzsedzs</name></author>
+  <title>Dzsedzs könyvtára</title>
+  <updated>2026-11-05T10:00:00Z</updated>
+  <author>
+    <name>Dzsedzs</name>
+  </author>
+  
   <link rel="self" href="https://githubusercontent.com" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
   <link rel="start" href="https://githubusercontent.com" type="application/atom+xml;profile=opds-catalog;kind=navigation"/>
 
+  <!-- 1. KÖNYV: Űrvadász -->
   <entry>
-    <title>Isaac Asimov - Urvadasz</title>
-    <id>urn:file:asimov01</id>
-    <updated>2026-11-05T00:00:00Z</updated>
-    <content type="text">Formatum: TXT</content>
-    <!-- FIGYELJ: Az Isaac Asimov/ után írd be a pontos fájlnevet, ami a mappában van! -->
+    <title>Isaac Asimov - 1 - Űrvadász</title>
+    <id>urn:file:asimov_urvadasz_1</id>
+    <updated>2026-11-05T10:00:00Z</updated>
+    <content type="text">Formátum: TXT</content>
+    <!-- FONTOS: Itt a pontos raw link kell a txt fájlhoz, szóközök helyett %20-szal kódolva -->
+    <link rel="http://opds-spec.org" href="https://githubusercontent.com" type="text/plain"/>
+  </entry>
+
+  <!-- 2. KÖNYV: Acélbarlangok -->
+  <entry>
+    <title>Isaac Asimov - Acélbarlangok</title>
+    <id>urn:file:asimov_acelbarlangok</id>
+    <updated>2026-11-05T10:00:00Z</updated>
+    <content type="text">Formátum: TXT</content>
     <link rel="http://opds-spec.org" href="https://githubusercontent.com" type="text/plain"/>
   </entry>
 </feed>
